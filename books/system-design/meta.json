@@ -1,0 +1,592 @@
+{
+ "slug": "system-design",
+ "title": "System Design",
+ "cloth": "#2c4636",
+ "clothDark": "#1d3125",
+ "parts": [
+  {
+   "title": "Fundamentals",
+   "desc": "The building blocks every large system is made of. Start here if HLD feels overwhelming.",
+   "chapters": [
+    "system-design-for-beginners-how-to-start-with-hld-and-lld",
+    "design-a-load-balancer",
+    "design-a-content-delivery-network",
+    "design-consistent-hashing",
+    "design-a-unique-id-generator-in-distributed-systems",
+    "design-a-distributed-cache",
+    "a-complete-guide-to-redis",
+    "design-a-distributed-key-value-store",
+    "design-a-rate-limiter",
+    "apache-kafka-crash-course",
+    "design-a-distributed-message-queue",
+    "design-an-authentication-system",
+    "design-a-notification-system"
+   ]
+  },
+  {
+   "title": "High-Level Design",
+   "desc": "Classic product design questions, ordered from warm-up to the ones that come up in senior loops.",
+   "chapters": [
+    "tricky-hld-patterns-for-interviews",
+    "design-bit-ly-and-pastebin",
+    "design-autocomplete-for-search-engines",
+    "design-a-news-feed-system",
+    "design-a-chat-system",
+    "design-twitter",
+    "design-instagram",
+    "design-reddit",
+    "design-tinder",
+    "system-design-of-a-proximity-service",
+    "design-youtube",
+    "design-spotify",
+    "design-netflix",
+    "design-medium",
+    "design-leetcode",
+    "design-amazon",
+    "design-airbnb",
+    "design-google-drive",
+    "design-google-docs",
+    "design-google-maps",
+    "design-discord",
+    "design-a-metrics-monitoring-and-alerting-system"
+   ]
+  },
+  {
+   "title": "Low-Level Design",
+   "desc": "Object oriented design concepts, then the machine coding problems interviewers love.",
+   "chapters": [
+    "lld-concepts",
+    "design-a-parking-lot",
+    "design-a-vending-machine",
+    "design-a-basic-music-system",
+    "lld-design-youtube"
+   ]
+  },
+  {
+   "title": "Distributed Systems",
+   "desc": "A multi part series on time, replication, consistency, consensus, and failure, meant to be read start to finish.",
+   "chapters": [
+    "distributed-systems-part-1-introduction",
+    "distributed-systems-part-2-time-order-and-causality",
+    "distributed-systems-part-3-replication-strategies",
+    "distributed-systems-part-4-consistency-models",
+    "distributed-systems-part-5-consensus-algorithms",
+    "distributed-systems-part-6-partitioning-and-sharding",
+    "distributed-systems-part-7-failure-detection-and-fault-tolerance",
+    "distributed-systems-part-8-distributed-transactions-revisited"
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "id": "system-design-for-beginners-how-to-start-with-hld-and-lld",
+   "title": "System Design for Beginners: How to Start With HLD and LLD",
+   "sub": "",
+   "part": 0,
+   "cover": "system-design-for-beginners-how-to-start-with-hld-and-lld/cover.jpg",
+   "imgs": [
+    {
+     "alt": "Image",
+     "src": "system-design-for-beginners-how-to-start-with-hld-and-lld/img-01.jpg"
+    }
+   ],
+   "pieces": 40,
+   "status": "2099048223797043656"
+  },
+  {
+   "id": "design-a-load-balancer",
+   "title": "Design a Load Balancer",
+   "sub": "High-Level Design Question-Based Series #5",
+   "part": 0,
+   "cover": "design-a-load-balancer/cover.jpg",
+   "imgs": [],
+   "pieces": 5,
+   "status": "2046465659551576395"
+  },
+  {
+   "id": "design-a-content-delivery-network",
+   "title": "Design a Content Delivery Network",
+   "sub": "High-Level Design Questions-Based Series #6",
+   "part": 0,
+   "cover": "design-a-content-delivery-network/cover.jpg",
+   "imgs": [],
+   "pieces": 3,
+   "status": "2046578404758295032"
+  },
+  {
+   "id": "design-consistent-hashing",
+   "title": "Design Consistent Hashing",
+   "sub": "High-Level Design Questions-Based Series #10",
+   "part": 0,
+   "cover": "design-consistent-hashing/cover.jpg",
+   "imgs": [
+    {
+     "alt": "Image",
+     "src": "design-consistent-hashing/img-01.jpg"
+    },
+    {
+     "alt": "Image",
+     "src": "design-consistent-hashing/img-02.png"
+    }
+   ],
+   "pieces": 5,
+   "status": "2057098732328648808"
+  },
+  {
+   "id": "design-a-unique-id-generator-in-distributed-systems",
+   "title": "Design A Unique ID Generator in Distributed Systems",
+   "sub": "High-Level Design Questions-Based Series #11",
+   "part": 0,
+   "cover": "design-a-unique-id-generator-in-distributed-systems/cover.jpg",
+   "imgs": [],
+   "pieces": 4,
+   "status": "2057461354114728238"
+  },
+  {
+   "id": "design-a-distributed-cache",
+   "title": "Design A Distributed Cache",
+   "sub": "High-Level Design Question-Based Series #8",
+   "part": 0,
+   "cover": "design-a-distributed-cache/cover.jpg",
+   "imgs": [],
+   "pieces": 3,
+   "status": "2048052028174463278"
+  },
+  {
+   "id": "a-complete-guide-to-redis",
+   "title": "A Complete Guide to Redis",
+   "sub": "",
+   "part": 0,
+   "cover": "a-complete-guide-to-redis/cover.jpg",
+   "imgs": [],
+   "pieces": 19,
+   "status": "2061076806552392055"
+  },
+  {
+   "id": "design-a-distributed-key-value-store",
+   "title": "Design a Distributed Key-Value store",
+   "sub": "High-Level Design Questions-Based Series #7",
+   "part": 0,
+   "cover": "design-a-distributed-key-value-store/cover.jpg",
+   "imgs": [
+    {
+     "alt": "Image",
+     "src": "design-a-distributed-key-value-store/img-01.png"
+    }
+   ],
+   "pieces": 4,
+   "status": "2047329176982827353"
+  },
+  {
+   "id": "design-a-rate-limiter",
+   "title": "Design A Rate Limiter",
+   "sub": "High-Level Design Question-Based Series #3",
+   "part": 0,
+   "cover": "design-a-rate-limiter/cover.jpg",
+   "imgs": [],
+   "pieces": 2,
+   "status": "2045533839649624096"
+  },
+  {
+   "id": "apache-kafka-crash-course",
+   "title": "Apache Kafka: Crash Course",
+   "sub": "",
+   "part": 0,
+   "cover": "apache-kafka-crash-course/cover.jpg",
+   "imgs": [],
+   "pieces": 6,
+   "status": "2062165677033820383"
+  },
+  {
+   "id": "design-a-distributed-message-queue",
+   "title": "Design A Distributed Message Queue",
+   "sub": "High-Level Design Questions-Based Series #28",
+   "part": 0,
+   "cover": "design-a-distributed-message-queue/cover.jpg",
+   "imgs": [],
+   "pieces": 12,
+   "status": "2106418481130516785"
+  },
+  {
+   "id": "design-an-authentication-system",
+   "title": "Design an Authentication System",
+   "sub": "High-Level Design Questions-Based Series #9",
+   "part": 0,
+   "cover": "design-an-authentication-system/cover.jpg",
+   "imgs": [],
+   "pieces": 3,
+   "status": "2048758919770816850"
+  },
+  {
+   "id": "design-a-notification-system",
+   "title": "Design A Notification System",
+   "sub": "High-Level Design Question-Based Series #2",
+   "part": 0,
+   "cover": "design-a-notification-system/cover.jpg",
+   "imgs": [],
+   "pieces": 2,
+   "status": "2044839667267494292"
+  },
+  {
+   "id": "tricky-hld-patterns-for-interviews",
+   "title": "Tricky HLD Patterns for interviews",
+   "sub": "High-Level Design",
+   "part": 1,
+   "cover": "tricky-hld-patterns-for-interviews/cover.jpg",
+   "imgs": [],
+   "pieces": 8,
+   "status": "2056739488114856226"
+  },
+  {
+   "id": "design-bit-ly-and-pastebin",
+   "title": "Design Bit.ly and Pastebin",
+   "sub": "",
+   "part": 1,
+   "cover": "design-bit-ly-and-pastebin/cover.jpg",
+   "imgs": [],
+   "pieces": 2,
+   "status": "2044672371546877964"
+  },
+  {
+   "id": "design-autocomplete-for-search-engines",
+   "title": "Design Autocomplete For Search Engines",
+   "sub": "High-Level Design Question-based Series #4",
+   "part": 1,
+   "cover": "design-autocomplete-for-search-engines/cover.jpg",
+   "imgs": [],
+   "pieces": 3,
+   "status": "2045906641967833171"
+  },
+  {
+   "id": "design-a-news-feed-system",
+   "title": "Design A News-Feed System",
+   "sub": "High-Level Design Questions-Based Series #12",
+   "part": 1,
+   "cover": "design-a-news-feed-system/cover.jpg",
+   "imgs": [],
+   "pieces": 3,
+   "status": "2058553384735842654"
+  },
+  {
+   "id": "design-a-chat-system",
+   "title": "Design A Chat System",
+   "sub": "High-Level Design Questions-Based Series #13",
+   "part": 1,
+   "cover": "design-a-chat-system/cover.jpg",
+   "imgs": [],
+   "pieces": 5,
+   "status": "2061445321910284589"
+  },
+  {
+   "id": "design-twitter",
+   "title": "Design Twitter",
+   "sub": "High-Level Design Questions-Based Series #19",
+   "part": 1,
+   "cover": "design-twitter/cover.jpg",
+   "imgs": [],
+   "pieces": 11,
+   "status": "2068309801638195531"
+  },
+  {
+   "id": "design-instagram",
+   "title": "Design Instagram",
+   "sub": "High-Level Design Questions-Based Series #16",
+   "part": 1,
+   "cover": "design-instagram/cover.jpg",
+   "imgs": [],
+   "pieces": 10,
+   "status": "2065074213665579192"
+  },
+  {
+   "id": "design-reddit",
+   "title": "Design Reddit",
+   "sub": "High-Level Design Questions-Based Series #18",
+   "part": 1,
+   "cover": "design-reddit/cover.jpg",
+   "imgs": [],
+   "pieces": 10,
+   "status": "2067615247259811850"
+  },
+  {
+   "id": "design-tinder",
+   "title": "Design Tinder",
+   "sub": "High-Level Design Questions-Based Series #17",
+   "part": 1,
+   "cover": "design-tinder/cover.jpg",
+   "imgs": [],
+   "pieces": 10,
+   "status": "2065790968448909572"
+  },
+  {
+   "id": "system-design-of-a-proximity-service",
+   "title": "System Design Of A Proximity Service",
+   "sub": "",
+   "part": 1,
+   "cover": "system-design-of-a-proximity-service/cover.jpg",
+   "imgs": [],
+   "pieces": 10,
+   "status": "2091192716059459825"
+  },
+  {
+   "id": "design-youtube",
+   "title": "Design Youtube",
+   "sub": "High-Level Design Questions-Based Series #14",
+   "part": 1,
+   "cover": "design-youtube/cover.jpg",
+   "imgs": [
+    {
+     "alt": "Image",
+     "src": "design-youtube/img-01.jpg"
+    }
+   ],
+   "pieces": 5,
+   "status": "2062909779576791167"
+  },
+  {
+   "id": "design-spotify",
+   "title": "Design Spotify",
+   "sub": "High-Level Design Questions-Based Series #15",
+   "part": 1,
+   "cover": "design-spotify/cover.jpg",
+   "imgs": [],
+   "pieces": 11,
+   "status": "2063952850531897396"
+  },
+  {
+   "id": "design-netflix",
+   "title": "Design Netflix",
+   "sub": "High-Level Design Questions-Based Series #21",
+   "part": 1,
+   "cover": "design-netflix/cover.jpg",
+   "imgs": [],
+   "pieces": 13,
+   "status": "2071256571028648283"
+  },
+  {
+   "id": "design-medium",
+   "title": "Design Medium",
+   "sub": "High-Level Design Questions-Based Series #24",
+   "part": 1,
+   "cover": "design-medium/cover.jpg",
+   "imgs": [],
+   "pieces": 13,
+   "status": "2084263186199638124"
+  },
+  {
+   "id": "design-leetcode",
+   "title": "Design Leetcode",
+   "sub": "High-Level Design Questions-Based Series #23",
+   "part": 1,
+   "cover": "design-leetcode/cover.jpg",
+   "imgs": [],
+   "pieces": 13,
+   "status": "2083591314067927258"
+  },
+  {
+   "id": "design-amazon",
+   "title": "Design Amazon",
+   "sub": "High-Level Design Questions-Based Series #20",
+   "part": 1,
+   "cover": "design-amazon/cover.jpg",
+   "imgs": [],
+   "pieces": 14,
+   "status": "2070543086258979132"
+  },
+  {
+   "id": "design-airbnb",
+   "title": "Design Airbnb",
+   "sub": "High-Level Design Questions-Based Series #22",
+   "part": 1,
+   "cover": "design-airbnb/cover.jpg",
+   "imgs": [],
+   "pieces": 13,
+   "status": "2079561027788611975"
+  },
+  {
+   "id": "design-google-drive",
+   "title": "Design Google Drive",
+   "sub": "High-Level Design Questions-Based Series #26",
+   "part": 1,
+   "cover": "design-google-drive/cover.jpg",
+   "imgs": [],
+   "pieces": 13,
+   "status": "2088619948113641872"
+  },
+  {
+   "id": "design-google-docs",
+   "title": "Design Google Docs",
+   "sub": "High-Level Design Questions-Based Series #25",
+   "part": 1,
+   "cover": "design-google-docs/cover.jpg",
+   "imgs": [],
+   "pieces": 13,
+   "status": "2087149020011774260"
+  },
+  {
+   "id": "design-google-maps",
+   "title": "Design Google Maps",
+   "sub": "High-Level Design Questions-Based Series #27",
+   "part": 1,
+   "cover": "design-google-maps/cover.jpg",
+   "imgs": [],
+   "pieces": 9,
+   "status": "2101675662482571673"
+  },
+  {
+   "id": "design-discord",
+   "title": "Design Discord",
+   "sub": "High-Level Design Questions-Based Series #30",
+   "part": 1,
+   "cover": "design-discord/cover.jpg",
+   "imgs": [],
+   "pieces": 12,
+   "status": "2114362276316942758"
+  },
+  {
+   "id": "design-a-metrics-monitoring-and-alerting-system",
+   "title": "Design A Metrics Monitoring and Alerting System",
+   "sub": "High-Level Design Questions-Based Series #29",
+   "part": 1,
+   "cover": "design-a-metrics-monitoring-and-alerting-system/cover.jpg",
+   "imgs": [],
+   "pieces": 12,
+   "status": "2108858835440119870"
+  },
+  {
+   "id": "lld-concepts",
+   "title": "LLD Concepts",
+   "sub": "Low-Level Design series #1",
+   "part": 2,
+   "cover": "lld-concepts/cover.jpg",
+   "imgs": [],
+   "pieces": 5,
+   "status": "2055635966568620167"
+  },
+  {
+   "id": "design-a-parking-lot",
+   "title": "Design a Parking Lot",
+   "sub": "Low-Level Design series #3",
+   "part": 2,
+   "cover": "design-a-parking-lot/cover.jpg",
+   "imgs": [],
+   "pieces": 2,
+   "status": "2057821348450402614"
+  },
+  {
+   "id": "design-a-vending-machine",
+   "title": "Design a Vending Machine",
+   "sub": "Low-Level Design series #4",
+   "part": 2,
+   "cover": "design-a-vending-machine/cover.jpg",
+   "imgs": [],
+   "pieces": 7,
+   "status": "2060348729929175403"
+  },
+  {
+   "id": "design-a-basic-music-system",
+   "title": "Design a basic Music System",
+   "sub": "",
+   "part": 2,
+   "cover": "design-a-basic-music-system/cover.jpg",
+   "imgs": [
+    {
+     "alt": "UML class diagram of the User, Playlist, Library, Song and Artist classes",
+     "src": "design-a-basic-music-system/uml.png"
+    }
+   ],
+   "pieces": 3,
+   "status": "2056620076246479055"
+  },
+  {
+   "id": "lld-design-youtube",
+   "title": "Design Youtube",
+   "sub": "Low-Level Design series #3",
+   "part": 2,
+   "cover": "lld-design-youtube/cover.jpg",
+   "imgs": [],
+   "pieces": 4,
+   "status": "2060001018134553006"
+  },
+  {
+   "id": "distributed-systems-part-1-introduction",
+   "title": "Distributed Systems Part-1 (Introduction)",
+   "sub": "Distributed Systems #1 (Introduction)",
+   "part": 3,
+   "cover": "distributed-systems-part-1-introduction/cover.jpg",
+   "imgs": [],
+   "pieces": 6,
+   "status": "2092234002610680246"
+  },
+  {
+   "id": "distributed-systems-part-2-time-order-and-causality",
+   "title": "Distributed Systems Part-2 (Time, Order, and Causality)",
+   "sub": "Distributed Systems #2 (Time, Order, and Causality)",
+   "part": 3,
+   "cover": "distributed-systems-part-2-time-order-and-causality/cover.jpg",
+   "imgs": [],
+   "pieces": 5,
+   "status": "2092969096774287363"
+  },
+  {
+   "id": "distributed-systems-part-3-replication-strategies",
+   "title": "Distributed Systems Part-3 (Replication Strategies)",
+   "sub": "Distributed Systems #3 (Replication Strategies)",
+   "part": 3,
+   "cover": "distributed-systems-part-3-replication-strategies/cover.jpg",
+   "imgs": [],
+   "pieces": 5,
+   "status": "2093700736299487430"
+  },
+  {
+   "id": "distributed-systems-part-4-consistency-models",
+   "title": "Distributed Systems Part-4 (Consistency Models)",
+   "sub": "Distributed Systems #4 (Consistency Models)",
+   "part": 3,
+   "cover": "distributed-systems-part-4-consistency-models/cover.jpg",
+   "imgs": [],
+   "pieces": 6,
+   "status": "2094422311906726202"
+  },
+  {
+   "id": "distributed-systems-part-5-consensus-algorithms",
+   "title": "Distributed Systems Part-5 (Consensus Algorithms)",
+   "sub": "Distributed Systems #5 (Consensus Algorithms)",
+   "part": 3,
+   "cover": "distributed-systems-part-5-consensus-algorithms/cover.jpg",
+   "imgs": [],
+   "pieces": 5,
+   "status": "2095122732065443969"
+  },
+  {
+   "id": "distributed-systems-part-6-partitioning-and-sharding",
+   "title": "Distributed Systems Part-6 (Partitioning and Sharding)",
+   "sub": "Distributed Systems #6 (Partitioning and Sharding)",
+   "part": 3,
+   "cover": "distributed-systems-part-6-partitioning-and-sharding/cover.jpg",
+   "imgs": [],
+   "pieces": 6,
+   "status": "2095844630399263161"
+  },
+  {
+   "id": "distributed-systems-part-7-failure-detection-and-fault-tolerance",
+   "title": "Distributed Systems Part-7 (Failure Detection and Fault Tolerance)",
+   "sub": "Distributed Systems #7 (Failure Detection and Fault Tolerance)",
+   "part": 3,
+   "cover": "distributed-systems-part-7-failure-detection-and-fault-tolerance/cover.jpg",
+   "imgs": [],
+   "pieces": 6,
+   "status": "2096163179596525852"
+  },
+  {
+   "id": "distributed-systems-part-8-distributed-transactions-revisited",
+   "title": "Distributed Systems Part-8 (Distributed Transactions Revisited)",
+   "sub": "Distributed Systems #8 (Distributed Transactions Revisited)",
+   "part": 3,
+   "cover": "distributed-systems-part-8-distributed-transactions-revisited/cover.jpg",
+   "imgs": [],
+   "pieces": 10,
+   "status": "2096575304722747738"
+  }
+ ],
+ "order": 1
+}

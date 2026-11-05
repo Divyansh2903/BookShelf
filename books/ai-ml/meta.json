@@ -1,0 +1,67 @@
+{
+ "slug": "ai-ml",
+ "title": "AI & Machine Learning",
+ "cloth": "#22304d",
+ "clothDark": "#161f33",
+ "parts": [
+  {
+   "title": "AI and ML Foundations",
+   "desc": "The vocabulary and core ideas behind modern AI, plus a real ML system design.",
+   "chapters": [
+    "ai-terminology-explained",
+    "everything-about-machine-learning",
+    "netflix-recommendation-system-machine-learning-system-design"
+   ]
+  },
+  {
+   "title": "Building with Claude",
+   "desc": "A study guide for the Claude Certified Architect Foundations exam.",
+   "chapters": [
+    "a-complete-guide-for-claude-certified-architect-foundations-cca-f-exam"
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "id": "ai-terminology-explained",
+   "title": "AI Terminology Explained",
+   "sub": "A Complete Beginner's Glossary",
+   "part": 0,
+   "cover": "ai-terminology-explained/cover.jpg",
+   "imgs": [],
+   "status": "2087837722098700421",
+   "pieces": 4
+  },
+  {
+   "id": "everything-about-machine-learning",
+   "title": "Everything About Machine Learning",
+   "sub": "",
+   "part": 0,
+   "cover": "everything-about-machine-learning/cover.jpg",
+   "imgs": [],
+   "status": "2086085446300533025",
+   "pieces": 5
+  },
+  {
+   "id": "netflix-recommendation-system-machine-learning-system-design",
+   "title": "Netflix Recommendation System - Machine Learning System Design",
+   "sub": "",
+   "part": 0,
+   "cover": "netflix-recommendation-system-machine-learning-system-design/cover.jpg",
+   "imgs": [],
+   "status": "2069785739810705773",
+   "pieces": 7
+  },
+  {
+   "id": "a-complete-guide-for-claude-certified-architect-foundations-cca-f-exam",
+   "title": "A Complete Guide For Claude Certified Architect Foundations (CCA-F) Exam",
+   "sub": "",
+   "part": 1,
+   "cover": "a-complete-guide-for-claude-certified-architect-foundations-cca-f-exam/cover.jpg",
+   "imgs": [],
+   "status": "2069050669487809004",
+   "pieces": 6
+  }
+ ],
+ "order": 3
+}

@@ -1,0 +1,23 @@
+{
+  "name": "bookshelf",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "data": "node scripts/build-data.mjs",
+    "dev": "npm run data && vite",
+    "build": "npm run data && vite build && cp dist/index.html Bookshelf.html"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.2.1",
+    "highlight.js": "^11.12.0",
+    "linkedom": "^0.18.15",
+    "markdown-it": "^15.0.3",
+    "vite": "^8.3.6",
+    "vite-plugin-singlefile": "^2.3.4"
+  }
+}

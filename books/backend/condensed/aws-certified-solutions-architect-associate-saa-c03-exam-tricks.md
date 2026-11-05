@@ -1,0 +1,73 @@
+# AWS Certified Solutions Architect - Associate SAA-C03 Exam Tricks
+
+<<<SECTION 1>>>
+Common SAA-C03 question patterns, for one-pass revision. Format: keyword in question → answer/service.
+
+- Restrict access to some countries → CloudFront (Geo Restriction)
+- SQL injection / XSS protection, protect web app & API → AWS WAF
+- DDOS attacks → AWS Shield
+- Preserve the contents of an instance → Hibernate mode in EC2
+- Access DynamoDB or S3 from a private subnet in AWS → VPC endpoint
+- Credentials in a database → AWS Secrets Manager
+- Prevent accidental S3 object deletion → Enable Versioning + MFA
+- File system shared by multiple EC2 / hierarchical directories / Linux file server → EFS
+- Increase read performance in RDS → Read Replicas
+- Querying data in a storage system → S3 + Athena
+- Low-latency request handling for TCP → Network Load Balancer (NLB)
+- Path/host based routing with HTTP/HTTPS traffic → Application Load Balancer (ALB)
+- Hosting static content → S3 static hosting
+- Download/upload data greater than 20GB → S3 Transfer Acceleration
+- Unpredictable object access pattern → S3 Intelligent tiering
+- Frequent access and high performance → S3 standard
+- Infrequent access but fast retrieval → S3 Standard-IA (S3 One Zone-IA if high availability isn't mentioned + cost is low)
+- Preserve for a long time + slow retrieval → S3 Glacier Deep Archive
+- Prevent any modification of objects → S3 Object Lock
+- Serverless, scalable, elastic architecture for API → API Gateway + Lambda
+- SMB file store + gaming app (HPC workload) → Amazon FSx
+- Work time under 15 mins + under 512MB of memory → AWS Lambda
+- Real-time streaming ingestion (logs, IoT, clickstream, events) → Kinesis Data Streams
+- Deliver streaming data to S3, Redshift, etc. → Kinesis Data Firehose
+- Real-time streaming analytics with SQL, Apache Flink → Kinesis Data Analytics
+- Decoupling apps / asynchronous working → SQS
+- Duplicate messages in the queue → Increase VisibilityTimeout
+- Low latency for HPC in EC2 instances → Cluster Placement Group
+- Migrate NFS/SMB server from on-prem → AWS DataSync, or AWS Storage Gateway (for hybrid cloud use cases)
+- Encrypt data in transit → SSL/TLS or Client Side Encryption
+- HPC for Linux → FSx for Lustre
+- Windows file server → FSx for Windows
+- Low latency + temporary storage for EC2 instances → Instance store
+- Reduce latency for global users over TCP → AWS Global Accelerator
+- Complicated analytical queries using joins → Redshift
+- ETL (extract, transform, load) jobs / convert .csv files to parquet → AWS Glue
+- SQL database deployed across multiple AWS regions → Aurora global database
+- Server-side encryption, AWS manages data key & master key → SSE-S3 (S3 Managed Keys)
+- AWS manages data key, customer manages master key → SSE-KMS (AWS KMS-managed keys)
+- Customer manages data key & master key → SSE-C (customer-provided keys)
+- EBS volume for millisecond latency → Provisioned IOPS SSD (io1)
+- Users with attached IAM policies / configuration info → AWS Config
+- Restrict access to S3 from CloudFront → Origin Access Identity (OAI)
+- AWS Storage Gateway file gateway → NFS or SMB
+- Monitor & safeguard organization from cyberattacks → AWS GuardDuty
+- Replicate S3 data from one region to another → S3 Cross-Region Replication
+- Expected spike / predictable load on certain days → EC2 scheduled scaling or predictive scaling
+- Scaling metric with a target value (like CPU 40%) → Target Tracking
+- Shift traffic between regions' resources → Route 53 geoproximity
+- Redirect traffic based on user location → Route 53 Geolocation
+- High availability (almost all cases) → Multi-AZ Deployment
+- Vulnerability in your application → AWS Inspector
+- Centralized maintenance & governance → AWS Organizations
+- Temporary secure service-to-service access → IAM Roles
+- Instance level changes → Security Groups
+- Subnet level changes → NACLs
+- Low latency + static hosting → CloudFront and S3 static hosting
+- Low-cost, immediate on-prem connection, no large bandwidth → Site-to-Site VPN
+- Dedicated private link from on-prem data center → AWS Direct Connect
+- Large-scale data migrations (10 TB to petabytes) → AWS Snowball
+- Transferring exabytes (100+ PB) of data → AWS Snowmobile
+- High-performance NoSQL / unclear schema / key-value → AWS DynamoDB
+- Relational data, transactions, ACID → AWS RDS (AWS Aurora if high performance is mentioned)
+- Flexible JSON document storage, schema-less design (MongoDB) → AWS DocumentDB
+- Image/video analysis (faces, objects, OCR) → Amazon Rekognition
+- NLP: sentiment, key phrases (what the text says) → Amazon Comprehend
+- Text-to-speech conversion → Amazon Polly
+- Extract text & tables from documents (OCR) → Amazon Textract

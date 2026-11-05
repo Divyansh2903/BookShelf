@@ -1,0 +1,259 @@
+{
+ "slug": "backend",
+ "title": "Backend",
+ "cloth": "#5a1d18",
+ "clothDark": "#3d120f",
+ "parts": [
+  {
+   "title": "Backend Fundamentals",
+   "desc": "How a production backend actually works, from the first HTTP request to scaling and security.",
+   "chapters": [
+    "http-and-routing",
+    "serialization-deserialization-authentication-and-authorization",
+    "validation-transformation-controllers-middlewares",
+    "rest-api-design",
+    "databases-in-depth-part-1",
+    "databases-in-depth-part-2",
+    "databases-in-depth-part-3",
+    "caching-task-queues-error-handling-logging-monitoring",
+    "security-scaling-and-performance-concurrency-and-parallelism"
+   ]
+  },
+  {
+   "title": "Microservices",
+   "desc": "When to split a monolith, where to draw boundaries, and how services talk and stay consistent.",
+   "chapters": [
+    "mental-model-for-microservices",
+    "monolith-to-microservices",
+    "service-decomposition-and-boundaries",
+    "inter-service-communication",
+    "data-ownership-and-read-models",
+    "distributed-transactions-sagas-and-consistency"
+   ]
+  },
+  {
+   "title": "Under the Hood",
+   "desc": "How two everyday runtimes actually execute your code.",
+   "chapters": [
+    "how-javascript-executes-the-code-behind-the-scenes",
+    "python-s-inner-working-behind-the-scenes"
+   ]
+  },
+  {
+   "title": "Miscellany",
+   "desc": "A cloud certification guide and some advice on writing.",
+   "chapters": [
+    "aws-certified-solutions-architect-associate-saa-c03-exam-tricks",
+    "how-to-get-started-with-writing-technical-and-creative"
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "id": "http-and-routing",
+   "title": "HTTP & Routing",
+   "sub": "Backend Engineering #1",
+   "part": 0,
+   "cover": "http-and-routing/cover.jpg",
+   "imgs": [],
+   "status": "2053366145995178087",
+   "pieces": 7
+  },
+  {
+   "id": "serialization-deserialization-authentication-and-authorization",
+   "title": "Serialization, Deserialization, Authentication and Authorization",
+   "sub": "Backend Engineering #2",
+   "part": 0,
+   "cover": "serialization-deserialization-authentication-and-authorization/cover.jpg",
+   "imgs": [
+    {
+     "alt": "Image",
+     "src": "serialization-deserialization-authentication-and-authorization/img-01.jpg"
+    }
+   ],
+   "status": "2053487726033559704",
+   "pieces": 7
+  },
+  {
+   "id": "validation-transformation-controllers-middlewares",
+   "title": "Validation, Transformation, Controllers, Middlewares",
+   "sub": "Backend Engineering #3",
+   "part": 0,
+   "cover": "validation-transformation-controllers-middlewares/cover.jpg",
+   "imgs": [
+    {
+     "alt": "Image",
+     "src": "validation-transformation-controllers-middlewares/img-01.jpg"
+    }
+   ],
+   "status": "2053882356071911853",
+   "pieces": 6
+  },
+  {
+   "id": "rest-api-design",
+   "title": "Rest API Design",
+   "sub": "Backend Engineering #4",
+   "part": 0,
+   "cover": "rest-api-design/cover.jpg",
+   "imgs": [],
+   "status": "2054882198604628305",
+   "pieces": 7
+  },
+  {
+   "id": "databases-in-depth-part-1",
+   "title": "Databases in Depth Part-1",
+   "sub": "Backend Engineering #5 : Databases in Depth (#1)",
+   "part": 0,
+   "cover": "databases-in-depth-part-1/cover.jpg",
+   "imgs": [],
+   "status": "2073772366094602241",
+   "pieces": 9
+  },
+  {
+   "id": "databases-in-depth-part-2",
+   "title": "Databases in Depth Part-2",
+   "sub": "Backend Engineering #5 : Databases in Depth (#2)",
+   "part": 0,
+   "cover": "databases-in-depth-part-2/cover.jpg",
+   "imgs": [],
+   "status": "2075942037732667812",
+   "pieces": 13
+  },
+  {
+   "id": "databases-in-depth-part-3",
+   "title": "Databases in Depth Part-3",
+   "sub": "Backend Engineering #5 : Databases in Depth (#3)",
+   "part": 0,
+   "cover": "databases-in-depth-part-3/cover.jpg",
+   "imgs": [],
+   "status": "2076649413435687097",
+   "pieces": 14
+  },
+  {
+   "id": "caching-task-queues-error-handling-logging-monitoring",
+   "title": "Caching, Task Queues, Error Handling, Logging, Monitoring",
+   "sub": "Backend Engineering #6 : Caching, Task Queues, Error Handling, Logging, Monitoring, etc.",
+   "part": 0,
+   "cover": "caching-task-queues-error-handling-logging-monitoring/cover.jpg",
+   "imgs": [],
+   "status": "2077400118647750968",
+   "pieces": 6
+  },
+  {
+   "id": "security-scaling-and-performance-concurrency-and-parallelism",
+   "title": "Security, Scaling & Performance, Concurrency & Parallelism",
+   "sub": "Backend Engineering #7 (Final Part)",
+   "part": 0,
+   "cover": "security-scaling-and-performance-concurrency-and-parallelism/cover.jpg",
+   "imgs": [],
+   "status": "2077722979882963122",
+   "pieces": 3
+  },
+  {
+   "id": "mental-model-for-microservices",
+   "title": "Mental Model for Microservices",
+   "sub": "Microservices course",
+   "part": 1,
+   "cover": "mental-model-for-microservices/cover.jpg",
+   "imgs": [],
+   "status": "2080261902593065465",
+   "pieces": 4
+  },
+  {
+   "id": "monolith-to-microservices",
+   "title": "Monolith To Microservices",
+   "sub": "Microservices course",
+   "part": 1,
+   "cover": "monolith-to-microservices/cover.jpg",
+   "imgs": [],
+   "status": "2080659276998291721",
+   "pieces": 3
+  },
+  {
+   "id": "service-decomposition-and-boundaries",
+   "title": "Service Decomposition And Boundaries",
+   "sub": "Microservices course",
+   "part": 1,
+   "cover": "service-decomposition-and-boundaries/cover.jpg",
+   "imgs": [],
+   "status": "2080943768153596085",
+   "pieces": 4
+  },
+  {
+   "id": "inter-service-communication",
+   "title": "Inter-Service Communication",
+   "sub": "Microservices course",
+   "part": 1,
+   "cover": "inter-service-communication/cover.jpg",
+   "imgs": [],
+   "status": "2081302031646806047",
+   "pieces": 5
+  },
+  {
+   "id": "data-ownership-and-read-models",
+   "title": "Data Ownership And Read Models",
+   "sub": "Microservices course",
+   "part": 1,
+   "cover": "data-ownership-and-read-models/cover.jpg",
+   "imgs": [],
+   "status": "2081673770092433631",
+   "pieces": 5
+  },
+  {
+   "id": "distributed-transactions-sagas-and-consistency",
+   "title": "Distributed Transactions, Sagas, and Consistency",
+   "sub": "Microservices course",
+   "part": 1,
+   "cover": "distributed-transactions-sagas-and-consistency/cover.jpg",
+   "imgs": [],
+   "status": "2082019622224900154",
+   "pieces": 4
+  },
+  {
+   "id": "how-javascript-executes-the-code-behind-the-scenes",
+   "title": "How JavaScript Executes The Code - Behind The Scenes",
+   "sub": "",
+   "part": 2,
+   "cover": "how-javascript-executes-the-code-behind-the-scenes/cover.jpg",
+   "imgs": [
+    {
+     "alt": "Image",
+     "src": "how-javascript-executes-the-code-behind-the-scenes/img-01.jpg"
+    }
+   ],
+   "status": "2075158256826335454",
+   "pieces": 6
+  },
+  {
+   "id": "python-s-inner-working-behind-the-scenes",
+   "title": "Python's Inner Working - Behind The Scenes",
+   "sub": "",
+   "part": 2,
+   "cover": "python-s-inner-working-behind-the-scenes/cover.jpg",
+   "imgs": [],
+   "status": "2078116519029129646",
+   "pieces": 7
+  },
+  {
+   "id": "aws-certified-solutions-architect-associate-saa-c03-exam-tricks",
+   "title": "AWS Certified Solutions Architect - Associate SAA-C03 Exam Tricks",
+   "sub": "",
+   "part": 3,
+   "cover": "aws-certified-solutions-architect-associate-saa-c03-exam-tricks/cover.jpg",
+   "imgs": [],
+   "status": "2066793644783513735",
+   "pieces": 1
+  },
+  {
+   "id": "how-to-get-started-with-writing-technical-and-creative",
+   "title": "How To Get Started With Writing- Technical and Creative",
+   "sub": "",
+   "part": 3,
+   "cover": "how-to-get-started-with-writing-technical-and-creative/cover.jpg",
+   "imgs": [],
+   "status": "2072219094728978564",
+   "pieces": 2
+  }
+ ],
+ "order": 2
+}
